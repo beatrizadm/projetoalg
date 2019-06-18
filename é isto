@@ -4,7 +4,6 @@ for linha in arquivo.readlines():
     linhas=linha.split(";")
     matriz.append(linhas)
 print(matriz)
-
 def media(matriz):
     listadamedia=[]
     for i in range(len(matriz)):
